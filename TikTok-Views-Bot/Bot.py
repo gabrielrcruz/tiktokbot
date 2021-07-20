@@ -15,9 +15,9 @@ def loop1():
         loop1()
     try:
         sleep(2)
-        driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/div/div/form/div/input").send_keys(vidUrl)
+        driver.find_element_by_xpath("/html/body/div[4]/div[5]/div/form/div/input").send_keys(vidUrl)
         sleep(1)
-        driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/div/div/form/div/div/button").click()
+        driver.find_element_by_xpath("/html/body/div[4]/div[5]/div/form/div/div/button").click()
         sleep(2)
         driver.find_element_by_xpath("//*[@id=\"c2VuZC9mb2xsb3dlcnNfdGlrdG9V\"]/div[1]/div/form/button").click()
         sleep(10)
@@ -43,11 +43,11 @@ def loop2():
         loop2()
     try:
         sleep(2)
-        driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/div/div/form/div/input").send_keys(vidUrl)
+        driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/form/div/input").send_keys(vidUrl)
         sleep(1)
-        driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/div/div/form/div/div/button").click()
+        driver.find_element_by_xpath("//html/body/div[4]/div[3]/div/form/div/div/button").click()
         sleep(10)
-        driver.find_element_by_xpath("/html/body/div[4]/div[3]/div/div/div/div/div[1]/div/form/button").click()
+        driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/div/div[1]/div/form/button").click()
         sleep(10)
         hearts = driver.find_element_by_xpath('//*[@id="c2VuZE9nb2xsb3dlcnNfdGlrdG9r"]/span').text
         sleep(55)
@@ -150,7 +150,7 @@ def loop6():
 print("Autor: https://github.com/NoNameoN-A  -  Tradutor: https://github.com/gabrielrcruz")
 
 #Coloque o Link do Video Aqui:
-vidUrl = "https://www.tiktok.com/@gabrielrcruz_/video/6926320995527609605" #Change it
+vidUrl = "https://www.tiktok.com/@xbeatriznascimento/video/6986285972874857734" #Change it
 
 bot = int(input("O que você quer fazer?\n1 - Visualizações automáticas(1000)\n2 - Like Automatico\n3 - Auto Like no (Primeiro) Comentário\n4 - Seguidores Automáticos\n5 - [Novo]Auto Seguidores\n6 - Recarga Simples\n"))
 i = 0
